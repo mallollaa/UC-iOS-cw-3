@@ -35,27 +35,35 @@ struct ContentView: View {
                 .foregroundColor(.black)
                 .frame(width: 100, height: 100)
                 .background(Color.yellow)
+            
            
                 .onTapGesture {
                     
                if Int(dgree) ?? 0 >= 90
                 {
+                   
+                
                    name1 = "ناجح"
                     
                 }
                 
                 else if Int(dgree) ?? 0 >= 85
                 {
+                    
+                
                    name1 = "جيدجدا"
                 }
                 
                 else
                 {
+                    
+               
                     name1 = "راسب"                }
                 
                 }
-          Text (name1)
             Text("لقد حصلت على درجه ")
+            Text (name1)
+            
                
                 
         }
